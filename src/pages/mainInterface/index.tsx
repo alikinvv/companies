@@ -15,7 +15,7 @@ import {
 } from './styles'
 
 import { removeEmployee, setCompanies } from 'store/pages/mainInterface'
-var companiesJSON = require('./companies.json')
+import companiesJSON from './companies.json'
 
 const Main = () => {
     const dispatch = useAppDispatch()
@@ -43,6 +43,7 @@ const Main = () => {
                 }),
             )
             setCheckedAll(false)
+            setCheckedEmployees([])
         }
     }
 
@@ -185,7 +186,7 @@ const Main = () => {
                                                     />
                                                     <ButtonSquare
                                                         icon="trash"
-                                                        onClick={() =>
+                                                        onClick={() => {
                                                             dispatch(
                                                                 removeEmployee({
                                                                     index: selectedCompany,
@@ -194,7 +195,18 @@ const Main = () => {
                                                                     ],
                                                                 }),
                                                             )
-                                                        }
+                                                            setCheckedEmployees(
+                                                                [
+                                                                    ...checkedEmployees.filter(
+                                                                        (
+                                                                            item,
+                                                                        ) =>
+                                                                            item !==
+                                                                            employee.id,
+                                                                    ),
+                                                                ],
+                                                            )
+                                                        }}
                                                     />
                                                 </FlexStyled>
                                             </Td>
