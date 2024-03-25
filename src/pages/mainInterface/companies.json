@@ -1,0 +1,113 @@
+[
+    {
+        "id": "gas",
+        "name": "Газпром",
+        "addr": "г. Москва",
+        "employees": [
+            {
+                "id": 1,
+                "lastName": "Иванов",
+                "firstName": "Петр",
+                "position": "Инжинер"
+            },
+            {
+                "id": 2,
+                "lastName": "Козлов",
+                "firstName": "Иван",
+                "position": "Строитель"
+            },
+            {
+                "id": 3,
+                "lastName": "Рычкин",
+                "firstName": "Николай",
+                "position": "Мастер"
+            },
+            {
+                "id": 4,
+                "lastName": "Василенко",
+                "firstName": "Никита",
+                "position": "Повар"
+            },
+            {
+                "id": 5,
+                "lastName": "Оков",
+                "firstName": "Михаил",
+                "position": "Водитель"
+            },
+            {
+                "id": 6,
+                "lastName": "Хамкова",
+                "firstName": "Елена",
+                "position": "Программист"
+            },
+            {
+                "id": 7,
+                "lastName": "Бояршинов",
+                "firstName": "Владимир",
+                "position": "Аналитик"
+            }
+        ]
+    },
+    {
+        "id": "luk",
+        "name": "ЛУКОЙЛ",
+        "addr": "г. Санкт-Петербург",
+        "employees": [
+            {
+                "id": 8,
+                "lastName": "Берзлов",
+                "firstName": "Семен",
+                "position": "Помошник"
+            },
+            {
+                "id": 9,
+                "lastName": "Еременко",
+                "firstName": "Светлана",
+                "position": "Кондутор"
+            },
+            {
+                "id": 10,
+                "lastName": "Аверенко",
+                "firstName": "Наталья",
+                "position": "Мастер"
+            }
+        ]
+    },
+    {
+        "id": "rzhd",
+        "name": "РЖД",
+        "addr": "г. Тверь",
+        "employees": [
+            {
+                "id": 11,
+                "lastName": "Пименов",
+                "firstName": "Валерий",
+                "position": "Программист"
+            },
+            {
+                "id": 12,
+                "lastName": "Кузел",
+                "firstName": "Виталина",
+                "position": "Аналитик"
+            },
+            {
+                "id": 13,
+                "lastName": "Заяц",
+                "firstName": "Николай",
+                "position": "Разнорабочий"
+            },
+            {
+                "id": 14,
+                "lastName": "Зиналов",
+                "firstName": "Евгений",
+                "position": "Директор"
+            }
+        ]
+    },
+    {
+        "id": "ros",
+        "name": "Росатом",
+        "addr": "г. Калуга",
+        "employees": []
+    }
+]
